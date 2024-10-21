@@ -61,7 +61,3 @@ Alan Freitas - Tecnólogo em Cibersegurança
 ## Licença
 
 Este projeto é de uso pessoal e não possui licença para redistribuição ou uso comercial.
-
----
-
-Esse `README` fornece as informações necessárias para entender, instalar e modificar o projeto do currículo, além de sugestões para melhorias futuras.
