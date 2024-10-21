@@ -7,28 +7,28 @@
     <meta name="keywords" content="Currículo, Cibersegurança, Profissional, Experiência">
     <meta name="author" content="Alan Freitas">
     <title>Currículo - Tecnólogo em Cibersegurança</title>
-    <link rel="stylesheet" href="css/style.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Alan Rodrigo Pereira Freitas",
-      "jobTitle": "Especialista em Cibersegurança",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Gaspar",
-        "addressRegion": "SC",
-        "addressCountry": "Brasil"
-      },
-      "alumniOf": {
-        "@type": "CollegeOrUniversity",
-        "name": "Centro Universitário Leonardo da Vinci (UNIASSELVI)"
-      },
-      "sameAs": [
-        "https://www.linkedin.com/in/arfrei47",
-        "https://www.github.com/alanrodrigofreitas"
-      ]
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Alan Rodrigo Pereira Freitas",
+        "jobTitle": "Especialista em Cibersegurança",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gaspar",
+            "addressRegion": "SC",
+            "addressCountry": "Brasil"
+        },
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Centro Universitário Leonardo da Vinci (UNIASSELVI)"
+        },
+        "sameAs": [
+            "https://www.linkedin.com/in/arfrei47",
+            "https://www.github.com/alanrodrigofreitas"
+        ]
     }
     </script>
 </head>
@@ -36,17 +36,25 @@
     <header class="container text-center my-4">
         <h1>Alan Rodrigo Pereira Freitas</h1>
         <p>
-            <a href="https://wa.me/+5547992858331" class="btn btn-outline-primary mx-1" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp do Alan">WhatsApp</a>
-            <a href="mailto:arfrei47@outlook.com" class="btn btn-outline-secondary mx-1" target="_blank" rel="noopener noreferrer" aria-label="Enviar e-mail para Alan">E-mail</a>
-            <a href="https://www.linkedin.com/in/arfrei47" class="btn btn-outline-info mx-1" target="_blank" rel="noopener noreferrer" aria-label="Perfil do LinkedIn de Alan">LinkedIn</a>
-            <a href="https://www.github.com/alanrodrigofreitas" class="btn btn-outline-dark mx-1" target="_blank" rel="noopener noreferrer" aria-label="Perfil do GitHub de Alan">GitHub</a>
+            <a href="https://wa.me/+5547992858331" class="btn btn-outline-primary mx-1" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp do Alan">
+                <i class="fas fa-phone"></i> WhatsApp
+            </a>
+            <a href="mailto:arfrei47@outlook.com" class="btn btn-outline-secondary mx-1" target="_blank" rel="noopener noreferrer" aria-label="Enviar e-mail para Alan">
+                <i class="fas fa-envelope"></i> E-mail
+            </a>
+            <a href="https://www.linkedin.com/in/arfrei47" class="btn btn-outline-info mx-1" target="_blank" rel="noopener noreferrer" aria-label="Perfil do LinkedIn de Alan">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://www.github.com/alanrodrigofreitas" class="btn btn-outline-dark mx-1" target="_blank" rel="noopener noreferrer" aria-label="Perfil do GitHub de Alan">
+                <i class="fab fa-github"></i> GitHub
+            </a>
         </p>
         <p>Gaspar, Santa Catarina, Brasil</p>
     </header>
 
     <main class="container">
         <section class="objective my-4">
-            <h2>Meu Objetivo</h2>
+            <h2>Objetivo</h2>
             <p>Tecnólogo em Cibersegurança em busca de oportunidades para aplicar e expandir meus conhecimentos em segurança da informação, análise de vulnerabilidades e desenvolvimento de soluções de proteção de rede. Visando contribuir para empresas que valorizam inovação, proteção de dados e práticas de cibersegurança robustas.</p>
         </section>
 
@@ -57,7 +65,6 @@
 
         <section class="experience my-4">
             <h2>Experiência Profissional</h2>
-            <!-- Cada experiência pode ser colocada como uma lista para melhor organização -->
             <ul>
                 <li><strong>Operador de Máquinas Fixas em Geral</strong> - Seara Alimentos LTDA</li>
                 <li><strong>Almoxarife</strong> - Indústria e Comércio de Confecções Gueda LTDA</li>
@@ -110,21 +117,7 @@
         <p>&copy; 2024 Alan Freitas. Todos os direitos reservados.</p>
     </footer>
 
-    <script>
-    document.addEventListener("DOMContentLoaded", () => {
-        const sections = document.querySelectorAll("section");
-        window.addEventListener("scroll", () => {
-            sections.forEach(section => {
-                const rect = section.getBoundingClientRect();
-                if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
-                    section.style.transition = "opacity 0.5s ease-in";
-                    section.style.opacity = 1;
-                } else {
-                    section.style.opacity = 0.5;
-                }
-            });
-        });
-    });
-    </script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
