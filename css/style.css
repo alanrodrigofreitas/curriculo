@@ -1,0 +1,98 @@
+:root {
+    --primary-color: #007bff;
+    --background-color: #f8f9fa;
+    --text-color: #343a40;
+    --button-hover-bg: #0056b3;
+    --button-hover-text: #ffffff;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+main {
+    text-align: justify;
+}
+
+:root .dark-mode {
+    --background-color: #343a40;
+    --text-color: #f8f9fa;
+    --button-hover-bg: #004080;
+    --button-hover-text: #e0e0e0;
+}
+
+.dark-mode {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+h2, h3 {
+    color: var(--primary-color);
+}
+
+.text-indent {
+    text-indent: 75px;
+}
+
+.btn {
+    border: 1px solid var(--primary-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: var(--button-hover-bg);
+    color: var(--button-hover-text);
+}
+
+section {
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+.dark-mode-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    header, main, footer {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .btn {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+    h2, h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.25rem;
+    }
+    h3 {
+        font-size: 1.15rem;
+    }
+
+    .skills ul, .experience ul, .certifications ul {
+        padding-left: 1rem;
+    }
+}
